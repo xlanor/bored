@@ -1,5 +1,12 @@
 #!/usr/bin/env python 
 
+"""
+Reverse words in a given string
+Example: Let the input string be “i like this program very much”. The function should change the string to “much very program this like i”
+
+- Should handle spacing even at the start & end
+"""
+
 def reverse(input: str)-> str:
   split = input.split(" ")
   split.reverse()
